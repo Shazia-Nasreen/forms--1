@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+
+     
+<style>
+  body{
+    background-image: url('books.jpg');
+    background-repeat: no-repeat;
+    border-radius: 60em;
+  }
+</style>
+</head>
+<body>
+
+<form action="result.html">
+  <div class="container">
+    <h1>Registeration form </h1>
+    <p>Fill the following boxes.</p>
+   
+
+    <label for="First name"><b>First Name</b></label><br>
+    <input type="text" placeholder="Enter First name" name="First Name" id="First Name" required>
+    
+    <br>
+
+    <label for="last name"><b>last Name</b></label><br>
+    <input type="text" placeholder="Enter last name" name="last Name" id="last Name" required>
+
+    <br>
+    
+    <label for="Email"><b>Email</b></label><br>
+    <input type="text" placeholder="Enter email adress" name="Email" id="Email" required>
+
+    <br>
+
+    <label for="psw"><b>Password</b></label><br>
+    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+<br>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+    <br>
+    <h3> Choose your gender</h3>
+    <input type="radio" id="man" name="gender" value="Man">
+    <label for="man">Man</label><br>
+    <input type="radio" id="woman name="gender" value="    woman">
+    <label for="woman">woman</label><br>
+    <input type="radio" id="none of them" name="gender" value="None of them">
+    <label for="none of them">None of them</label>
+  
+  <br>
+  <br>
+  <h4> Visiting Time in library </h4>
+  <input type="checkbox" id="Time selection 1" name="time selection1" value="day time">
+    <label for="Time selection 1"> I am visitor between 8-16</label><br>
+    <input type="checkbox" id="Time selection 2" name="Time selection 2" value="evening time">
+    <label for="time selection"> I am visitor  between 3-8</label><br>
+    <input type="checkbox" id="Time selection 3" name="time selection 3" value="Day and Evening ">
+    <label for="Time selection 3"> Day and evening</label>
+  <br>
+  <br>
+  <h5>Interest Area</h5>
+  
+  <label for="books">Interest Area:</label>
+  
+  <select id="Books">
+    <option value="Science">Science</option>
+    <option value="Arts">Arts</option>
+    <option value="History">History</option>
+    <option value="Information" >Information</option>
+  </select>
+  
+
+  <br>
+  </form> 
+    
+    
+    
+    <button type="submit" class="registerbtn">Register</button>
+  </div>
+  <br>
+
+  
+
+</body>
+</html>
